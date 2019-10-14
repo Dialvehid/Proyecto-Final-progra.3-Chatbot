@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: segurosRC.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ QUE ES SEGURO DE RESPONSABILIDAD CIVIL ^</pattern>
+<template>El traslado del riesgo de incurrir en resposabilidad civil ante terceros.</template>
+</category>
+<category><pattern>^ CUBRE EL SEGURO DE RESPONSABILIDAD CIVIL ^</pattern>
+<template>Toda responsabilidad genereada por el asegurado de indemnizar a terceros en caso de dañar la propiedad de éste ultimo.
+
+<srai>CONTACTO RC</srai>
+</template>
+</category>
+<category><pattern>^ QUE ES RESPONSABILIDAD CIVIL ^</pattern>
+<template>La responsabilidad civil es la obligacion de toda persona individual o juridica de indemnizar los daños provocados a un tercero de forma dolosa o culposa.</template>
+</category>
+<category><pattern>^ ADQUIRIR EL SEGURO DE RESPONSABILIDAD CIVIL ^</pattern>
+<template>
+Para adquirir el seguro de Responsabilidad Civil necesita:
+♦Fotocopia de DPI
+♦Fotocopia de recibo de servicios con no mas de 6 meses de emitido</template>
+</category>
+<category><pattern>^ COBERTURA DEL SEGURO DE RESPONSABILIDAD CIVIL ^</pattern>
+<template>La cobertura aplica en cualquier caso en que el motivo directo del daño sea el asegurado.</template>
+</category>
+</aiml>

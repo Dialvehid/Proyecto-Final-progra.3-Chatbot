@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: SegurosVA.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ COBERTURAS DEL SEGURO DE VEHICULO ^</pattern>
+<template>El seguro del automóvil tiene por objeto, fundamentalmente, reparar o indemnizar los
+daños accidentales producidos en los vehículos de terceros y en el vehículo asegurado.</template>
+</category>
+<category><pattern>^ COBERTURAS DEL SEGURO DE AUTOMOVIL ^</pattern>
+<template>El seguro del automóvil tiene por objeto, fundamentalmente, reparar o indemnizar
+los daños accidentales producidos en los vehículos de terceros y en el vehículo asegurado.</template>
+</category>
+<category><pattern>^ COBERTURA DEL SEGURO DE VEHICULO ^</pattern>
+<template>La cobertura principal consiste en asegurar los daños causados a terceros en el uso del vehículo (responsabilidad civil del automóvil). 
+Responsabilidad civil complementaria.
+Daños propios e incendio.
+Robo del vehículo asegurado.
+Rotura del parabrisas y lunas del vehículo.
+Accidentes Personales para Ocupantes del vehículo asegurado.
+Asistencia en viaje.
+Prestación por privación del permiso de conducir.
+Sustitución del vehículo asegurado.
+
+<srai>CONTACTO VA</srai>
+</template>
+</category>
+<category><pattern>^ COBERTURA DEL SEGURO DE AUTOMOVIL ^</pattern>
+<template>La cobertura principal consiste en asegurar los daños causados a terceros en el uso del vehículo (responsabilidad civil del automóvil). 
+Responsabilidad civil complementaria.
+Daños propios e incendio.
+Robo del vehículo asegurado.
+Rotura del parabrisas y lunas del vehículo.
+Accidentes Personales para Ocupantes del vehículo asegurado.
+Asistencia en viaje.
+Prestación por privación del permiso de conducir.
+Sustitución del vehículo asegurado.</template>
+</category>
+<category><pattern>^ TIPOS DE COBERTURAS DEL SEGURO DE VEHICULO ^</pattern>
+<template>Básica: Sólo cubre Responsabilidad Civil a terceros.
+Limitada: Responsabilidad Civil, Robo y Gastos Médicos a ocupantes.
+Amplia: Además de cubrir lo mismo que la limitada, paga los gastos de reparación del vehículo.</template>
+</category>
+<category><pattern>^ TIPOS DE COBERTURAS DEL SEGURO DE AUTOMOVIL ^</pattern>
+<template>Básica: Sólo cubre Responsabilidad Civil a terceros.
+Limitada: Responsabilidad Civil, Robo y Gastos Médicos a ocupantes.
+Amplia: Además de cubrir lo mismo que la limitada, paga los gastos de reparación del vehículo.</template>
+</category>
+</aiml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: segurosRC.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ CONTACTO VIDA ^</pattern>
+<template>Para mayor informacion acerca de este ramo comuniquiese con nuestro asesor Edson Corona Tel: 4456-1666</template>
+</category>
+<category><pattern>^ CONTACTO F ^</pattern>
+<template>Para mayor informacion acerca de este ramo comuniquiese con nuestro asesor Anddy Whisky Tel: 3389-7777</template>
+</category>
+<category><pattern>^ CONTACTO VA ^</pattern>
+<template>Para mayor informacion acerca de este ramo comuniquiese con nuestro asesor Chepe Stark Tel: 6666-1235</template>
+</category>
+<category><pattern>^ CONTACTO RC ^</pattern>
+<template>Para mayor informacion acerca de este ramo comuniquiese con nuestro asesor Diego Verdaguer Tel: 7894-7777</template>
+</category>
+</aiml>

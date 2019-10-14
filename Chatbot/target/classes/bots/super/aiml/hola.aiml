@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: hola.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 22, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>HOLA</pattern>
+<template>Hola, cómo estás?</template>
+</category>
+<category><pattern>HOLI</pattern>
+<template>Holiwis</template>
+</category>
+<category><pattern>QUE TAL</pattern>
+<template>Muy bien! tu que tal?</template>
+</category>
+<category><pattern>SALUDOS</pattern>
+<template>Saludos, extraño viajero.</template>
+</category>
+<category><pattern>QUE TAL TU DIA</pattern>
+<template>Muy bien, gracias por preguntar,y que tal el tuyo? alegre?</template>
+</category>
+<category><pattern>^ BIEN ^</pattern>
+<template>Me alegro... cómo te puedo ayudar?</template>
+</category>
+<category><pattern>QUE HAY</pattern>
+<template>No mucho...</template>
+</category>
+<category><pattern>HELLO THERE</pattern>
+<template>GENERAL KENOBI</template>
+</category>
+</aiml>

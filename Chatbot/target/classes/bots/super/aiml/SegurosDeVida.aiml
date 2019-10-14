@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: SegurosDeVida.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ QUE ES SEGURO DE VIDA ^</pattern>
+<template>Es un seguro que cubre el riesgo de muerte, supervivencia e incapacidad.</template>
+</category>
+<category><pattern>^ BENEFICIARIO DEL SEGURO DE VIDA ^</pattern>
+<template>El beneficiario del seguro de vida es quien percibe la indemnizaci�n en los casos previstos por la p�liza. Suele tener un v�nculo com�n de intereses
+personales, familiares o econ�micos con el asegurado o con el tomador.</template>
+</category>
+<category><pattern>^ QUE ES SEGURO DE CONTRATO DE SUMA PURO ^</pattern>
+<template>El seguro de contrato de Suma Puro se da cuando la suma asegurada se acuerda y se fija entre las partes, las cuales son el tomador y la 
+empresa aseguradora, de forma libre y voluntaria.</template>
+</category>
+<category><pattern>* PUEDE VARIAR LA CANTIDAD DE LA SUMA ASEGURADA</pattern>
+<template>La suma no varia, la cantidad que previamente se ha acordado con la aseguradora es la cantidad que debe recibir.</template>
+</category>
+<category><pattern>^ QUIEN PUEDE COBRAR EL SEGURO DE VIDA ^</pattern>
+<template>Los beneficiarios detallados en el contrato del seguro de vida. 
+En los seguros de vida tal y como indica la Ley,
+se pueden o no designar beneficiarios. En el supuesto en el que no se hayan designado beneficiarios de forma expresa, en caso
+de fallecimiento, el importe de los seguros de vida lo recibir�n los herederos legales de la persona asegurada.</template>
+</category>
+<category><pattern>^ CUBRE EL SEGURO DE VIDA ^</pattern>
+<template>Con la cobertura por fallecimiento, el seguro de vida cubre el fallecimiento por cualquier causa: muerte natural,
+enfermedad, accidente, etc. El capital asegurado es el capital que recibir�n los beneficiarios en caso de fallecimiento
+del asegurado.
+
+<srai>CONTACTO VIDA</srai>
+</template>
+</category>
+<category><pattern>^ COBRAR EL SEGURO DE VIDA ^</pattern>
+<template>Entre los requisitos que pueden solicitarte est�n la p�liza del seguro de vida, copia certificada por el RENAP
+del Acta de Defunci�n del asegurado; copia certificada de las actuaciones del Ministerio P�blico que tom� conocimiento de
+los hechos del fallecimiento, en caso de muerte accidental; identificaci�n oficial en original y copia del asegurado y/o 
+beneficiarios y el tal�n de pago a la fecha de fallecimiento, por citar los m�s importantes.</template>
+</category>
+<category><pattern>^ SEGURO DE VIDA TEMPORAL ^</pattern>
+<template>El seguro temporal cubre el riesgo de fallecimiento prematuro antes de terminar el contrato. En este tipo de seguro
+impera el componente riesgo por encima de otras variables. Su duraci�n es de un a�o renovable de forma t�cita hasta un n�mero
+determinado de periodos. Su coste no suele ser muy alto y permite contratar coberturas elevadas.</template>
+</category>
+<category><pattern>^ SEGURO DE VIDA ENTERA ^</pattern>
+<template>Los seguros de vida entera extienden sus coberturas durante toda la vida del asegurado de forma permanente, sin plazo. 
+La indemnizaci�n se paga inmediatamente despu�s de la muerte del asegurado, cualquiera que sea el momento en que esto ocurra.</template>
+</category>
+<category><pattern>^ EXCLUSIONES DEL SEGURO DE VIDA ^</pattern>
+<template>El suicidio, actos imprudentes del asegurado tales como consumo de estupefacientes o bebidas alcoh�licas, accidente de
+tr�fico, deportes o actividades de riesgo tales como carrera de motos, alpinismo, toreo, etc., muerte ocasionada por un beneficiario.</template>
+</category>
+</aiml>

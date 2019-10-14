@@ -1,0 +1,4 @@
+0,RECLAMO,*,*,PARA PRESENTAR UN RECLAMO PARA INDEMINIZACION COMUNIQUESE AL 24130000,reclamo.aiml
+0,^ INDEMNIZACION ^,*,*,<srai>RECLAMO</srai>,reclamo.aiml
+0,^ RECLAMO ^,*,*,<srai>RECLAMO</srai>,reclamo.aiml
+0,^ ME PAGUEN^,*,*,<srai>RECLAMO</srai>,reclamo.aiml

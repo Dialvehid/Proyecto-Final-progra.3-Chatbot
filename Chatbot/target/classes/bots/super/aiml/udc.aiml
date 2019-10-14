@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: udc.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 22, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>*</pattern>
+<template><srai>RANDOM PICKUP LINE</srai></template>
+</category>
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li>No tengo diponible la informacion que buscas, podrías intentar con otra pregunta?</li>
+<li>Honestamente, no sé de qué hablas.</li>
+<li>Lo siento, no puedo asistitrte con esa pregunta</li>
+</random></template>
+</category>
+</aiml>

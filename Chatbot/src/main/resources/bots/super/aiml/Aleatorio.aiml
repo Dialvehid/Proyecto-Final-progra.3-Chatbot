@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+<category><pattern>* HOLA *</pattern>
+
+<template>
+Hola, ¡Qué tal!, mi nombre es Leticia, ¿Cómo te puedo ayudar el día en relación a tu seguro?
+</template>
+
+</category>
+<category><pattern>* COMIDA *</pattern>
+
+<template>Lo siento, pero no nos encargamos de eso, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* TU NOMBRE *</pattern>
+
+<template>
+¡Mi nombre es Leticia, y con gusto te puedo asistir!
+</template>
+
+</category>
+<category><pattern>* HAMBURGUESA *</pattern>
+
+<template>Lo siento, pero no nos encargamos de eso, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* SODA *</pattern>
+
+<template>Lo siento, no nos encargamos de alimentos, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* GASEOSA *</pattern>
+
+<template>Lo siento, pero no nos encargamos de eso, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+<category><pattern>* HELADO *</pattern>
+
+<template>Lo siento, pero esa no es nuestra área, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+</category>
+<category><pattern>* PELUCHE *</pattern>
+
+<template>Lo siento, pero no tenemos ninguna relación con cosas sobre peluches, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* ZAPATOS *</pattern>
+
+<template>Lo siento, pero no tenemos nada de información sobre zapatos, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* PELUCHES *</pattern>
+
+<template>Lo siento, pero no tenemos ninguna relación con cosas sobre peluches, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+<category><pattern>* ZAPATO *</pattern>
+
+<template>Lo siento, pero no tenemos nada de información sobre zapatos, sin embargo, ¿Necesitas información en relación a seguros?
+</template>
+
+</category>
+</aiml>

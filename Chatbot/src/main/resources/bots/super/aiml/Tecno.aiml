@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: Tecno.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 22, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>CUALES SON LAS COBERTURAS QUE TIENE LA POLIZA DE VEHICULOS</pattern>
+<template>Cuenta con secciones A, B, C y D explicadas en el cuerpo de la poliza, en general cuenta con cobertura de todo riesgo que no esté excluido en la poliza
+, ademas cuenta con cobertura de responsabilidad civil hasta la cantidad expresada en la poliza como Exceso de responsabilidad civil, tambien cuenta con cobertura
+de gastos medicos para los ocupantes de los vehiculos, asi como tambien cobertura por muerte del conductor</template>
+</category>
+<category><pattern>* COBERTURAS QUE TIENE LA POLIZA DE AUTOMOVILES</pattern>
+<template><srai>CUALES SON LAS COBERTURAS QUE TIENE LA POLIZA DE VEHICULOS</srai></template>
+</category>
+<category><pattern>* COBERTURAS QUE TIENE LA POLIZA DE CARROS</pattern>
+<template><srai>CUALES SON LAS COBERTURAS QUE TIENE LA POLIZA DE VEHICULOS</srai></template>
+</category>
+<category><pattern>* COBERTURAS QUE TIENE LA POLIZA DE RESPONSABILIDAD CIVIL</pattern>
+<template>Cubre toda cantidad que el asegurado tenga que pagar a terceros por motivo de responsabilidad civil</template>
+</category>
+<category><pattern>CUALES SON LAS COBERTURAS QUE TIENE LA FIANZA</pattern>
+<template>Los seguros de caucion tienen como cobertura el cumplimineto de ciertas obligaciones que el asegurado tiene y que se hacen constar en un documento
+, para lo que el asegurado se afianza comprando una suma aseguradada para garantizar a el acreedor de la obligacion que la misma se llevara a cabo</template>
+</category>
+<category><pattern>* COBERTURAS QUE TIENE EL SEGURO DE CAUCION</pattern>
+<template><srai>CUALES SON LAS COBERTURAS QUE TIENE LA FIANZA</srai></template>
+</category>
+<category><pattern>* COBERTURAS QUE TIENE LA POLIZA DE VIDA</pattern>
+<template>Cubre la muerte accidental del asegurado por las causas no excluidas en la poliza, puede tener beneficios como gastos medicos y cuentas de ahorro</template>
+</category>
+<category><pattern>* NOMBRE DE LA ASEGURADORA</pattern>
+<template>SEGUROS PAZ</template>
+</category>
+<category><pattern>^ QUEJA ^</pattern>
+<template>PARA PRESENTAR UNA QUEJA COMUNIQUESE AL 1730</template>
+</category>
+<category><pattern>^ INCONFORMIDAD ^</pattern>
+<template>PARA PRESENTAR UNA QUEJA COMUNIQUESE AL 1730</template>
+</category>
+</aiml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: segurosb.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ QUE ES SEGURO ^</pattern>
+<template>Un contrato individual en el que el Contratante o Asegurado, traslada riesgos a el Asegurador y este ultimo asume la resposabilidad
+            de indemnizar al asegurado en caso de un siniestro.</template>
+</category>
+<category><pattern>^ QUE ES PRIMA ^</pattern>
+<template>La cantidad a recibir por el Asegurador acordada entre Asegurado y Asegurador para que el Asegurador tome cargo del riesgo que el Asegurado
+              desea trasladar.</template>
+</category>
+<category><pattern>^ QUE ES INFRASEGURO ^</pattern>
+<template>Sucede cuando el Asegurado traslada un riesgo parcialmente, es decir, no traslada el riesgo en su totalidad sino solo una fraccion del mismo,
+               al momento de un siniestro el Asegurador indemnizará la cantidad correspondiente al porcentaje del riesgo que le fue trasladado.</template>
+</category>
+<category><pattern>^ QUE ES UN SINIESTRO ^</pattern>
+<template>Un suceso fortuito e imprevisto que causa daños a la persona o a la propiedad de la persona, cuyo resultado puede ser traducido en una
+               perdida economica.</template>
+</category>
+<category><pattern>^ QUE ES COASEGURO ^</pattern>
+<template>Sucede cuando la aseguradora concluye que el riesgo es demasiado grande para afrontarlo por si sola, por lo que contrata otras aseguradoras
+               para cubrir parte del riesgo.</template>
+</category>
+</aiml>

@@ -1,0 +1,11 @@
+0,^ COMPRA ^,*,*,<srai>NEGOCIO</srai>,negocio.aiml
+0,^ COMPRAR ^,*,*,<srai>NEGOCIO</srai>,negocio.aiml
+0,^ ADQUISICION ^,*,*,<srai>NEGOCIO</srai>,negocio.aiml
+0,^ ADQUIRIR ^,*,*,<srai>NEGOCIO</srai>,negocio.aiml
+0,^ CONTRATAR ^,*,*,<srai>NEGOCIO</srai>,negocio.aiml
+0,NEGOCIO,*,*,Que ramo de seguro le interesaria adquirir?,negocio.aiml
+0,VEHICULOS,QUE RAMO DE SEGURO LE INTERESARIA ADQUIRIR,*,<srai>COBERTURA DEL SEGURO DE VEHICULO</srai>,negocio.aiml
+0,RESPONSABILIDAD CIVIL,QUE RAMO DE SEGURO LE INTERESARIA ADQUIRIR,*,<srai>CUBRE EL SEGURO DE RESPONSABILIDAD CIVIL</srai>,negocio.aiml
+0,CAUCION,QUE RAMO DE SEGURO LE INTERESARIA ADQUIRIR,*,<srai>SEGURO DE CAUCION</srai>,negocio.aiml
+0,SEGURO DE VIDA,QUE RAMO DE SEGURO LE INTERESARIA ADQUIRIR,*,con mucho gusto#Comma#Newline<srai>CUBRE EL SEGURO DE VIDA</srai>,negocio.aiml
+0,*,QUE RAMO DE SEGURO LE INTERESARIA ADQUIRIR,*,Lamentamblemente no manejamos seguros del ramo <star/>,negocio.aiml

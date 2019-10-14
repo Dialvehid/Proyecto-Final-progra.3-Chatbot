@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>RECLAMO</pattern>
+<template>PARA PRESENTAR UN RECLAMO PARA INDEMINIZACION COMUNIQUESE AL 24130000</template>
+</category>
+<category><pattern>^ INDEMNIZACION ^</pattern>
+<template><srai>RECLAMO</srai></template>
+</category>
+<category><pattern>^ RECLAMO ^</pattern>
+<template><srai>RECLAMO</srai></template>
+</category>
+<category><pattern>^ ME PAGUEN^ </pattern>
+<template><srai>RECLAMO</srai></template>
+</category>
+</aiml>

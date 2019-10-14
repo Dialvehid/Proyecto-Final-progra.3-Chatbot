@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>^ COMPRA ^</pattern>
+<template><srai>NEGOCIO</srai></template>
+</category>
+<category><pattern>^ COMPRAR ^</pattern>
+<template><srai>NEGOCIO</srai></template>
+</category>
+<category><pattern>^ ADQUISICION ^</pattern>
+<template><srai>NEGOCIO</srai></template>
+</category>
+<category><pattern>^ ADQUIRIR ^</pattern>
+<template><srai>NEGOCIO</srai></template>
+</category>
+<category><pattern>^ CONTRATAR ^</pattern>
+<template><srai>NEGOCIO</srai></template>
+</category>
+<category><pattern>NEGOCIO</pattern>
+<template>Que ramo de seguro le interesaria adquirir?</template>
+</category>
+<category>
+<pattern>VEHICULOS</pattern>
+<that>Que ramo de seguro le interesaria adquirir</that>
+<template><srai>COBERTURA DEL SEGURO DE VEHICULO</srai></template>
+</category>
+<category>
+<pattern>RESPONSABILIDAD CIVIL</pattern>
+<that>Que ramo de seguro le interesaria adquirir</that>
+<template><srai>CUBRE EL SEGURO DE RESPONSABILIDAD CIVIL</srai></template>
+</category>
+<category>
+<pattern>CAUCION</pattern>
+<that>Que ramo de seguro le interesaria adquirir</that>
+<template><srai>SEGURO DE CAUCION</srai></template>
+</category>
+<category>
+<pattern>SEGURO DE VIDA</pattern>
+<that>Que ramo de seguro le interesaria adquirir</that>
+<template> con mucho gusto,
+<srai>CUBRE EL SEGURO DE VIDA</srai></template>
+</category>
+<category>
+<pattern>*</pattern>
+<that>Que ramo de seguro le interesaria adquirir</that>
+<template>Lamentamblemente no manejamos seguros del ramo <star/></template>
+</category>
+</aiml>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: caucion.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: mayo 04, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>^ SEGURO DE CAUCION ^</pattern>
+<template><random>
+<li>La fianza es un convenio por el cual una persona se hace responsable de los actos de otra frente a un tercero
+
+<srai>CONTACTO F</srai></li>
+<li>Fianza o Seguro de Cauci�n le garantiza el cumplimiento de una obligaci�n legal o contractual al contratante.
+
+<srai>CONTACTO F</srai></li>
+</random></template>
+</category>
+<category><pattern>^ SEGURO DE FIANZA ^</pattern>
+<template><random>
+<li>La fianza es un convenio por el cual una persona se hace responsable de los actos de otra frente a un tercero</li>
+<li>Fianza o Seguro de Cauci�n le garantiza el cumplimiento de una obligaci�n legal o contractual.</li>
+</random></template>
+</category>
+<category><pattern>^ CONDICIONES DE FIANZA ^</pattern>
+<template><random>
+<li>Seguros para el personal que labora por contrato en entidades gubernamentales.</li>
+<li>Suma asegurada m�xima por seguro Q 20000</li>
+</random></template>
+</category>
+<category><pattern>^ REQUISITOS DE FIANZA ^</pattern>
+<template>
+-Documento personal de identificaci�n (DPI).
+-Recibo de agua, luz o tel�fono.
+-Copia de Contrato por Servicios.
+-Recibo de agua, luz o tel�fono.
+-Copia de Contrato por Servicios.
+-Documento personal de identificaci�n (DPI).
+</template>
+</category>
+<category><pattern>^ REQUISITOS DE CAUCION ^</pattern>
+<template>
+-Documento personal de identificaci�n (DPI).
+-Recibo de agua, luz o tel�fono.
+-Copia de Contrato por Servicios.
+-Recibo de agua, luz o tel�fono.
+-Copia de Contrato por Servicios.
+-Documento personal de identificaci�n (DPI).
+</template>
+</category>
+<category><pattern>^ POLIZAS DE CAUCION ^</pattern>
+<template>
+El seguro de Caución o de Fianza cuenta con los siguientes tipos de Polizas:
+- Polizas de fianzas de fidelidad
+- Polizas de fianzas judiciales
+</template>
+</category>
+<category><pattern>^ POLIZAS DE FIANZA ^</pattern>
+<template>
+El seguro de Caución o de Fianza cuenta con los siguientes tipos de Polizas:
+- Polizas de fianzas de fidelidad
+- Polizas de fianzas judiciales
+</template>
+</category>
+<category><pattern>^ POLIZA DE CAUCION ^</pattern>
+<template>
+El seguro de Caución o de Fianza cuenta con los siguientes tipos de Polizas:
+- Polizas de fianzas de fidelidad
+- Polizas de fianzas judiciales
+</template>
+</category>
+<category><pattern>^ POLIZA DE FIANZA ^</pattern>
+<template>
+El seguro de Caución o de Fianza cuenta con los siguientes tipos de Polizas:
+- Polizas de fianzas de fidelidad
+- Polizas de fianzas judiciales
+</template>
+</category>
+<category><pattern>^ FIANZAS DE FIDELIDAD ^</pattern>
+<template>
+Estas p�lizas son las que amparan y protegen al beneficiario por las p�rdidas que pudiera sufrir por actos deshonestos de sus empleados o servidores.
+Garantiza la suma de dinero o valores que tenga bajo su responsabilidad el trabajador o empleado y de cuya falta resultare responsable mientras desempe�e su cargo.
+</template>
+</category>
+<category><pattern>^ FIANZAS JUDICIALES ^</pattern>
+<template>
+Son las fianzas que sirven para los juzgados generalmente para conmutar ir a la c�rcel o el dep�sito de dinero dentro del juzgado.
+Garantiza al Beneficiario, seg�n sea el caso, las responsabilidades del Asegurado que se le puedan derivar como consecuencia de medidas precautorias dictadas por los tribunales competentes en el �mbito penal, civil y laboral como tambi�n las costas proc�sales que se deriven del Juicio
+</template>
+</category>
+<category><pattern>^ ADQUIRIR ^</pattern>
+<template>
+En cualquiera de nuestros sucursales o llamando al 12345678.
+</template>
+</category>
+<category><pattern>^ ADQUIRIRLO ^</pattern>
+<template>
+En cualquiera de nuestros sucursales o llamando al 12345678.
+</template>
+</category>
+<category><pattern>^ CANCELAR ^</pattern>
+<template>
+Con gusto podemos ayudarlo con su solicitud, unicamente que para realizar la cancelación necesita realizarlo 
+directamente en cualquiera de nuestras agencias, para mas información llame al número: 12345678.
+</template>
+</category>
+<category><pattern>^ CANCELACION ^</pattern>
+<template>
+Con gusto podemos ayudarlo con su solicitud, unicamente que para realizar la cancelación necesita realizarlo 
+directamente en cualquiera de nuestras agencias, para mas información llame al número: 12345678.
+</template>
+</category>
+<category><pattern>^ TIEMPO DE ACTIVACION DEL SEGURO ^</pattern>
+<template>
+El seguro debe cumplir ciertos requisitos antes de ser activado,
+luego de 5 a 7 dias habiles a partir de la recepción de la aceptación del mismo.
+</template>
+</category>
+</aiml>
